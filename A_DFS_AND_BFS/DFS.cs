@@ -1,21 +1,24 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace A_DFS_AND_BFS
 {
     public class DFS
     {
-        public List<Node> nodes = new List<Node>();
+        public List<List<Node>> findCycles = new List<List<Node>>();
+        public List<Node> visitedNodes = new List<Node>();
+
+        public Node head = null;
+
+        public void SetHeadNode(Node head)
+        {
+            this.head = head;
+        }
 
         public void AddTwoWayNodes(Node one, Node two)
         {
             one.SetNextNode(two);
             two.SetNextNode(one);
-            
-            if (!nodes.Contains(one))
-                nodes.Add(one);
-            
-            if (!nodes.Contains(two))
-                nodes.Add(two);
         }
 
         /**
@@ -23,7 +26,32 @@ namespace A_DFS_AND_BFS
          */
         public void FindCycles()
         {
+            findCycles = new List<List<Node>>();
+            visitedNodes = new List<Node>();
+            if (null == head) {
+                Console.WriteLine("没有Head");
+                return;
+            }
             
+            DoDfsCycle(head);
+        }
+
+        private void DoDfsCycle(Node curr)
+        {
+            if (null == curr)
+                return;
+            
+            curr.SetVisited();                      // dirty
+            Console.WriteLine(curr.GetTitle());
+            
+            foreach (Node node in curr.GetLinks()) {
+                if (!node.CheckIfVisited()) {
+                    DoDfsCycle(node);
+                }
+                else {
+                    // 检查是否形成闭环
+                }
+            }
         }
     }
 }

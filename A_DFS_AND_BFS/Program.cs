@@ -29,9 +29,10 @@
             dfs.AddTwoWayNodes(d, g);
             dfs.AddTwoWayNodes(a, e);
             dfs.AddTwoWayNodes(e, b);
-            dfs.AddTwoWayNodes(b, h);
             dfs.AddTwoWayNodes(a, f);
-            dfs.AddTwoWayNodes(f, b);
+            dfs.AddTwoWayNodes(b, f);
+            dfs.AddTwoWayNodes(b, h);
+            dfs.SetHeadNode(a);
             dfs.FindCycles();
         }
     }

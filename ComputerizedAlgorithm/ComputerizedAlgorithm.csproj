@@ -5,12 +5,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{9E9D1CE2-9539-49C3-8729-0B09582DEC4E}</ProjectGuid>
+        <ProjectGuid>{366685AE-70FF-4189-9679-D57193397C31}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>A_BFS</RootNamespace>
-        <AssemblyName>A_BFS</AssemblyName>
-        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+        <RootNamespace>ComputerizedAlgorithm</RootNamespace>
+        <AssemblyName>ComputerizedAlgorithm</AssemblyName>
+        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

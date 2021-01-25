@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("B_BFS")]
+[assembly: AssemblyTitle("A_DFS_AND_BFS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("B_BFS")]
+[assembly: AssemblyProduct("A_DFS_AND_BFS")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("49AB6379-2FDE-4559-8A6A-A75D50EF4129")]
+[assembly: Guid("6E2C51F9-1E4E-40A4-B782-6B637DD0ABC8")]
 
 // Version information for an assembly consists of the following four values:
 //

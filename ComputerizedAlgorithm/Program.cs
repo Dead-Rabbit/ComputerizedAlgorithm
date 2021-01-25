@@ -1,4 +1,4 @@
-﻿namespace B_BFS
+﻿namespace ComputerizedAlgorithm
 {
     internal class Program
     {

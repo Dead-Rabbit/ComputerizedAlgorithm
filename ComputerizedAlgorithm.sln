@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_DFS_AND_BFS", "A_DFS_AND_BFS\A_DFS_AND_BFS.csproj", "{6E2C51F9-1E4E-40A4-B782-6B637DD0ABC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvexHull", "ConvexHull\ConvexHull.csproj", "{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6E2C51F9-1E4E-40A4-B782-6B637DD0ABC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2C51F9-1E4E-40A4-B782-6B637DD0ABC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2C51F9-1E4E-40A4-B782-6B637DD0ABC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

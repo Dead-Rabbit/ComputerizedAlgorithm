@@ -21,6 +21,13 @@ namespace A_DFS_AND_BFS
             two.SetNextNode(one);
         }
 
+        public void AddOneWayNode(Node from, Node to)
+        {
+            from.SetNextNode(to);
+        }
+
+        #region 构成圈
+     
         /**
          * 寻找所有构成的圈（不包含嵌套圈）
          */
@@ -41,7 +48,7 @@ namespace A_DFS_AND_BFS
             if (null == curr)
                 return;
             
-            curr.SetVisited();                      // dirty
+            curr.SetVisited(); // dirty
             Console.WriteLine(curr.GetTitle());
             
             foreach (Node node in curr.GetLinks()) {
@@ -53,5 +60,24 @@ namespace A_DFS_AND_BFS
                 }
             }
         }
+
+        #endregion
+
+        #region 有向图的最短路径
+
+        private int minLength = int.MaxValue;
+        private int[][] markPath;
+        public void FindShortestWay(int[][] map)
+        {
+            
+        }
+
+        private void ShortWayDFS(Node currentNode)
+        {
+            
+        }
+
+        #endregion
+        
     }
 }

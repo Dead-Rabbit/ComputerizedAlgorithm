@@ -5,7 +5,8 @@
         public static void Main(string[] args)
         {
             Program program = new Program();
-            program.TestCycleGraph();
+            // program.TestCycleGraph();
+            program.TestShortPath();
         }
 
         /**
@@ -34,6 +35,11 @@
             dfs.AddTwoWayNodes(b, h);
             dfs.SetHeadNode(a);
             dfs.FindCycles();
+        }
+
+        private void TestShortPath()
+        {
+            
         }
     }
 }

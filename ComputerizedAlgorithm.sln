@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_DFS_AND_BFS", "A_DFS_AND_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvexHull", "ConvexHull\ConvexHull.csproj", "{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview", "Interview\Interview.csproj", "{59903C9A-E845-4EAD-89B6-1C00CDA4C82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5820E8-82E6-4585-8786-01B8EA9E6EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59903C9A-E845-4EAD-89B6-1C00CDA4C82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59903C9A-E845-4EAD-89B6-1C00CDA4C82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59903C9A-E845-4EAD-89B6-1C00CDA4C82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59903C9A-E845-4EAD-89B6-1C00CDA4C82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
